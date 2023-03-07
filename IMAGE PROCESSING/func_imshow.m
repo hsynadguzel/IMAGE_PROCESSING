@@ -4,5 +4,5 @@ clear all; close all; clc;
 img = imread('lena.tiff');
 % baslik verme
 title('LENNA');
-% acýlýr pencere de gosterme
+% acilir pencere de gosterme
 figure,imshow(img);
