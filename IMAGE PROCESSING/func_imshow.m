@@ -1,8 +1,8 @@
 clear all; close all; clc;
 
-% görüntüyü okuma
+% goruntuyu okuma
 img = imread('lena.tiff');
-% baþlýk verme
+% baslik verme
 title('LENNA');
-% açýlýr pencere de gösterme
+% acýlýr pencere de gosterme
 figure,imshow(img);

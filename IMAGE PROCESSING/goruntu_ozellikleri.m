@@ -1,12 +1,12 @@
 clear all; close all; clc;
 
-% görüntü okuma
+% goruntu okuma
 img = imread('lena.tiff');
-% görüntü boyutu
+% goruntu boyutu
 size(img);
-% görüntü genel özellik: name, size, bytes,class
+% goruntu genel ozellik: name, size, bytes,class
 whos img;
-% görüntü detaylý özellikleri
+% goruntu detayli ozellikleri
 imfinfo('lena.tiff');
-% 2.satýr %.sütun pixel özellikleri
+% 2.satýr %.sutun pixel ozellikleri
 c1 = impixel(img,2,5)

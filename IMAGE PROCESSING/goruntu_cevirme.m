@@ -1,13 +1,13 @@
 clear all; close all; clc;
 
-% orijinal görüntü
+% orijinal gorüntü
 img = imread('lena.tiff');
-figure, imshow(img), title('ORÝJÝNAL');
+figure, imshow(img), title('ORIJINAL');
 
-% dikeyde çevrilmiþ görüntü
+% dikeyde cevrilmis gorüntü
 imgV = img(end:-1:1,:);
-figure, imshow(imgV), title('DÝKEY ÇEVRÝLMÝÞ');
+figure, imshow(imgV), title('DIKEY ÇEVRILMIS');
 
-% yatayda çevrilmiþ görüntü
+% yatayda cevrilmis gorüntü
 imgH = img(:,end:-1:1);
-figure, imshow(imgH), title('YATAY ÇEVRÝLMÝÞ');
+figure, imshow(imgH), title('YATAY CEVRILMIS');
